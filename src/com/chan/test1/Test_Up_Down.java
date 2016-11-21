@@ -2,7 +2,7 @@ package com.chan.test1;
 
 import java.util.Scanner;
 
-public class Test8_Up_Down {
+public class Test_Up_Down {
 	public static void main(String[] args) {
 		
 		

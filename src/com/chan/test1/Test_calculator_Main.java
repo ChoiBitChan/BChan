@@ -2,7 +2,7 @@ package com.chan.test1;
 
 import java.util.Scanner;
 
-public class Test5_calculator_Main {
+public class Test_calculator_Main {
 	public static void main(String[] args) {
 		System.out.println("입력값을 넣어주세요.");
 		Scanner scan = new Scanner(System.in);

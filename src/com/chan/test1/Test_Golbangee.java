@@ -1,6 +1,6 @@
 package com.chan.test1;
 
-public class Test9_Golbangee {
+public class Test_Golbangee {
 	public static void main(String[] args) throws InterruptedException {
 		int[][] cnt = new int[3][3] ;
 		int k = 0;
@@ -19,18 +19,14 @@ public class Test9_Golbangee {
 		}//for_j
 		
 		for(i=2; i>=0; i--){
-			System.out.print(j+"\n");
+//			System.out.print(j+"\n");
+			cnt[j-2][i] = k+1;
+			k++;
+			cnt[j-1][i] = k+1;
 			
 			
-			for(int ii=2; ii>=1; ii--){
-				cnt[j-ii][i] = k;
-				k++;
-				cnt[j-ii][i] = k;
-			}//for_ii
 			
-			
-		}//for_i
-		
+		}
 		stop = false;
 		}//while
 		
@@ -40,7 +36,7 @@ public class Test9_Golbangee {
 		for(i = 0; i < 3; i++){
 			for(j = 0; j < 3; j++){
 //				System.out.print(k+"번째 ");
-//				Thread.sleep(250); // 시간
+				Thread.sleep(250); // 시간
 //				cnt[i][j] = k+1;
 				
 				System.out.print(cnt[i][j]+" "); // 배열출력

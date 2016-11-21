@@ -2,7 +2,7 @@ package com.chan.test1;
 
 import java.util.Scanner;
 
-public class Test3_calculator2 {
+public class Test_calculator2 {
 	public static void main(String[] args) {
 		
 		

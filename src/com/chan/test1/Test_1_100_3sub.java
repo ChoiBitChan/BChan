@@ -1,6 +1,6 @@
 package com.chan.test1;
 
-public class Test6_1_100_3sub {
+public class Test_1_100_3sub {
 	public static void main(String[] args) {
 		
 		

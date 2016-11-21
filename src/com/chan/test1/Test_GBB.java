@@ -2,7 +2,7 @@ package com.chan.test1;
 
 import java.util.Scanner;
 
-public class Test4_GBB {
+public class Test_GBB {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

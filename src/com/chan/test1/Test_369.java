@@ -2,7 +2,7 @@ package com.chan.test1;
 
 import java.util.Scanner;
 
-public class Test7_369 {
+public class Test_369 {
 	public static void main(String[] args) {
 		System.out.println("1~99");
 		
