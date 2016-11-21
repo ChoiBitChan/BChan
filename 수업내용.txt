@@ -1217,6 +1217,11 @@ public / private
 
 
 
+  상속(Inheritance)
+    상위클래스
+
+    하위클래스
+
 
 
 
