@@ -1,13 +1,51 @@
 package com.chan.academy_study;
 
 public class Test_Getter_Setter_sub {
+	
+	public int age1 = 0;
+	protected int age2 = 0;
+	int age3 = 0;
+	private int age4 = 0;
+	
+	
+	public void agePrint(){
+		System.out.println(age1);
+		System.out.println(age2);
+		System.out.println(age3);
+		System.out.println(age4);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	------------------------------------------------------
+	
 	int age;
 	String name;
 	static int salary;
 	private String spices;	// 이 안에 클래스에서만 접근 가능
 	static int Count;
 	public static int price;
+	final double sub_pi = 3.14;
 	
+//	sub_pi = 3.14159; --- 위에서 final로 설정해놨기때문에 재설정이 불가능하다
+	
+	public void print_1(){
+		System.out.println("public");
+	}
+	
+	private void print_2(){
+		System.out.println("private");
+	}
 	
 	
 	public int getAge(){
