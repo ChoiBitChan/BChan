@@ -5,7 +5,9 @@ public class Test_Getter_Setter_sub {
 	String name;
 	static int salary;
 	private String spices;	// 이 안에 클래스에서만 접근 가능
+	static int Count;
 	public static int price;
+	
 	
 	
 	public int getAge(){
@@ -44,7 +46,12 @@ public class Test_Getter_Setter_sub {
 	
 	
 	
-	
+	public static int getCount() {
+		return Count;
+	}
+	public static void setCount(int count) {
+		Count = count;
+	}
 	
 	
 }
