@@ -9,7 +9,11 @@ public class Test_Getter_Setter_main {
 		
 		
 		
-		
+		Test_Getter_Setter_extends bcat1 = new Test_Getter_Setter_extends();
+		System.out.println(bcat1.age1);
+		System.out.println(bcat1.age2);
+		System.out.println(bcat1.age3);
+//		System.out.println(bcat1.age4);
 		
 		
 		

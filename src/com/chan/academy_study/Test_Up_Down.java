@@ -22,11 +22,11 @@ public class Test_Up_Down {
 						int input = sc.nextInt();
 						
 						if(input < random){
-							System.out.println("Up");
+							System.out.println(input+"보다 Up");
 							System.out.println(10-(i+1)+"번의 기회가 남았습니다.\n");
 						}
 						else if(input > random){
-							System.out.println("Down");
+							System.out.println(input+"보다 Down");
 							System.out.println(10-(i+1)+"번의 기회가 남았습니다.\n");
 						}
 						else if(input == random){
