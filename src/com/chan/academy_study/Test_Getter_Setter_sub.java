@@ -2,10 +2,10 @@ package com.chan.academy_study;
 
 public class Test_Getter_Setter_sub {
 	
-	public int age1 = 0;
-	protected int age2 = 0;
-	int age3 = 0;
-	private int age4 = 0;
+	public int age1 = 3;
+	protected int age2 = 4;
+	int age3 = 5;
+	private int age4 = 6;
 	
 	
 	public void agePrint(){
