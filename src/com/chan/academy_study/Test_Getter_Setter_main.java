@@ -1,4 +1,4 @@
-package com.chan.test1;
+package com.chan.academy_study;
 
 public class Test_Getter_Setter_main {
 

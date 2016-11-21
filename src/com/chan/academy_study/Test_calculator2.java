@@ -1,4 +1,4 @@
-package com.chan.test1;
+package com.chan.academy_study;
 
 import java.util.Scanner;
 
