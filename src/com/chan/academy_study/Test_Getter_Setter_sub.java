@@ -13,6 +13,8 @@ public class Test_Getter_Setter_sub {
 		System.out.println(age2);
 		System.out.println(age3);
 		System.out.println(age4);
+		
+	
 	}
 	
 	
