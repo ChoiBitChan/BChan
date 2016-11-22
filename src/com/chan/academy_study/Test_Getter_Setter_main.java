@@ -5,11 +5,12 @@ public class Test_Getter_Setter_main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println();
+		
 		
 		
 		
 		Test_Getter_Setter_extends bcat1 = new Test_Getter_Setter_extends();
+		bcat1.agePrint();
 		System.out.println(bcat1.age1);
 		System.out.println(bcat1.age2);
 		System.out.println(bcat1.age3);
