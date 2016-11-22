@@ -2,7 +2,7 @@ package com.chan.home_study;
 
 import java.util.Scanner;
 
-public class Study_ {
+public class Study_main {
 	public static void main(String[] args) {
 		
 		
@@ -10,6 +10,9 @@ public class Study_ {
 		/*
 		주석 시작
 		
+		
+		
+		//기본 자료형
 		int i = 10;
 		double d = i;
 		
@@ -25,12 +28,17 @@ public class Study_ {
 				
 		System.out.println(i+"를 입력하셨습니다.");
 		
+		
+		
+		//제어문
 		if((i%3)==0){
 			System.out.println(i+"는 3의 배수입니다");
 		} else if((i%3)!=0) {
 			System.out.println(i+"는 3의 배수가 아닙니다");
 		}
 		
+		
+		//루프문
 		int i = 1;
 		while (i <= 100){
 			
@@ -65,14 +73,27 @@ public class Study_ {
 			System.out.println("iArr2["+i+"] = " + iArr2[i]);
 		}
 		
-		주석 끝
-		*/
+		
 		
 		
 		//객체 지향
+		Study_makeClass mC1 = new Study_makeClass(); // Study_makeClass클래스로 부터 객체 생성 
+		Study_makeClass mC2 = new Study_makeClass();
 		
+		System.out.println(mC1.equals(mC2)); // mC1 와 mC2는 같지 않다
 		
+		주석 끝
+		*/
 		
+		Study_makeClass mC3 = new Study_makeClass();
+		Study_makeClass mC4 = new Study_makeClass(26, 174, 70, "010-6244-7748");
+		System.out.println(mC4);
+		
+//		mC3.age(); makeClass에서 접근제한자를 private로 하여서 안된다. 
+		mC3.getAge();
+		mC3.setAge(26);
+		
+		double d = mC3.calculateBMI();
 		
 		
 		
