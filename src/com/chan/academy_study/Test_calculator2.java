@@ -3,81 +3,73 @@ package com.chan.academy_study;
 import java.util.Scanner;
 
 public class Test_calculator2 {
-	public static void main(String[] args) {
-		
-		
-		
-		
-		
-//		System.out.println(calStr);
-		
-		
-//		System.out.println(sign);
-		
-		
-		
-		
-		while(true){
+		public static void main(String[] args) {
+			
+			
+//			계산연산
+			
+//			int ret;
+//			ret = add(10,20);
+//			System.out.println(ret);
+			
+			
 			Scanner sc = new Scanner(System.in);
-			String calStr;
-			calStr = sc.nextLine();
-			String sign = calStr.substring(1, 2);
-		switch(sign){
-		
-		case "+":
-			String[] num1 = calStr.split("\\+");
-			String[] num2 = num1[1].split("\\=");
+			int i = sc.nextInt();
+			String k = sc.next(); 
+			int j = sc.nextInt();
+			String r = sc.next();
 			
-			int n1 = Integer.parseInt(num1[0]);
-			int n2 = Integer.parseInt(num2[0]);
-			System.out.println(n1+n2);
-			break;
-		case "-":
-			String[] num3 = calStr.split("\\-");
-			String[] num4 = num3[1].split("\\=");
+			int result=0;
+			//System.out.println(i+"+"+j+"="+add(i,j));
 			
-			int n3 = Integer.parseInt(num3[0]);
-			int n4 = Integer.parseInt(num4[0]);
-			System.out.println(n3-n4);
-			break;
 			
-		case "*":
-			String[] num5 = calStr.split("\\*");
-			String[] num6 = num5[1].split("\\=");
+//			if(k.equals("+")){
+//				result = add(i,j);
+//			} else if(k.equals("-")){
+//				result = sub(i,j);
+//			} else if(k.equals("*")){
+//				result = mul(i,j);
+//			} else if(k.equals("/")){
+//				result = div(i,j);
+//			}
+//			
+//			System.out.println(i+k+j+"="+result);
 			
-			int n5 = Integer.parseInt(num5[0]);
-			int n6 = Integer.parseInt(num6[0]);
-			System.out.println(n5+n6);
-			break;
-			
-		case "/":
-			String[] num7 = calStr.split("\\/");
-			String[] num8 = num7[1].split("\\=");
-			
-			int n7 = Integer.parseInt(num7[0]);
-			int n8 = Integer.parseInt(num8[0]);
-			System.out.println(n7+n8);
-			break;
-		default:
-			System.out.println("오류");
-			break;
+			switch (k) {
+			case "+": result = add(i,j);
+				break;
+			case "-": result = sub(i,j);
+				break;	
+			case "*": result = mul(i,j);
+				break;	
+			case "/": result = div(i,j);
+				break;	
 			}
-		
+			
+			System.out.println(i+k+j+"="+result);
+			
 		}
 		
+		public static int add(int num1, int num2){
+			int sum;
+			sum = num1 + num2;
+			return sum;
+		}
 		
-		
-		
-//		String[] num1 = calStr.split("\\+");
-//		String[] num2 = num1[1].split("\\=");
-//		
-//		int n1 = Integer.parseInt(num1[0]);
-//		int n2 = Integer.parseInt(num2[0]);
-		
-//		System.out.println(n1);
-//		System.out.println(n2);
-//		System.out.println(n1+n2);
-		
-		
-	}
+		public static int sub(int num1, int num2){
+			int sub;
+			sub = num1 - num2;
+			return sub;
+		}
+		public static int mul(int num1, int num2){
+			int mul;
+			mul = num1 * num2;
+			return mul;
+		}
+		public static int div(int num1, int num2){
+			int div;
+			div = num1 / num2;
+			return div;
+		}
+
 }
