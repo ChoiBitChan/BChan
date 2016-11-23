@@ -1,6 +1,6 @@
 package com.chan.academy_study;
 
-public class Test_Getter_Setter_extends extends Test_Getter_Setter_sub {
+public class Getter_Setter_extends extends Getter_Setter_sub {
 //	Ctrl + Space 를 누르면 Test_Getter_Setter_sub 에 있는 메소드, 클래스가 나온다
 	
 	

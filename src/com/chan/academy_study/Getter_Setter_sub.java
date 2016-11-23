@@ -1,6 +1,6 @@
 package com.chan.academy_study;
 
-public class Test_Getter_Setter_sub {
+public class Getter_Setter_sub {
 	
 	public int age1 = 1;
 	protected int age2 = 2;
@@ -71,7 +71,7 @@ public class Test_Getter_Setter_sub {
 		return salary;
 	}
 	public static void setSalary(int salary) {
-		Test_Getter_Setter_sub.salary = salary;
+		Getter_Setter_sub.salary = salary;
 	}
 	
 	

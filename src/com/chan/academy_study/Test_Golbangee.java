@@ -36,7 +36,7 @@ public class Test_Golbangee {
 		for(i = 0; i < 3; i++){
 			for(j = 0; j < 3; j++){
 //				System.out.print(k+"번째 ");
-				Thread.sleep(250); // 시간
+//				Thread.sleep(250); // 시간
 //				cnt[i][j] = k+1;
 				
 				System.out.print(cnt[i][j]+" "); // 배열출력

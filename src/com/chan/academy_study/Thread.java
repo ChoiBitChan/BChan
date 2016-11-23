@@ -2,7 +2,7 @@ package com.chan.academy_study;
 
 import java.util.Scanner;
 
-public class Test_thread {
+public class Thread {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
@@ -10,7 +10,7 @@ public class Test_thread {
 		int cnt = 3;
 		name = nameOut(cnt);
 		
-		Thread.sleep(2000);
+//		Thread.sleep(250);
 		
 //		try{
 //			Thread.sleep(2000);
