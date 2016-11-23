@@ -16,6 +16,28 @@ public class Study_Student {
 		this.major = major;
 		
 	}
+	
+	public void updateInfo (int i, String info){
+		
+		switch (i){
+			
+		case 1 :
+			setName(info);
+			break;
+		case 2 :
+			setAge(Integer.parseInt(info));
+			break;
+		case 3 :
+			setStudentNum(Integer.parseInt(info));
+			break;
+		case 4 :
+			setMajor(info);
+			break;
+		}
+		
+	}
+	
+	
 
 
 	public String getName() {

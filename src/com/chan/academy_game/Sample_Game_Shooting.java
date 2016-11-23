@@ -93,29 +93,29 @@ class game_Frame extends JFrame implements KeyListener, Runnable {
 		f_width = 1200;
 		f_height = 600;
 
-		Missile_img = new ImageIcon("src/com/chan/academy_game/Sample_Game_Shooting_Image/Missile.png").getImage();
-		Enemy_img = new ImageIcon("src/com/chan/academy_game/Sample_Game_Shooting_Image/enemy.png").getImage();
+		Missile_img = new ImageIcon("src/com/chan/academy_game/Image/Missile.png").getImage();
+		Enemy_img = new ImageIcon("src/com/chan/academy_game/Image/enemy.png").getImage();
 		// 이미지 만드는 방식을 ImageIcon으로 변경.
 
 		Player_img = new Image[5];
 		for (int i = 0; i < Player_img.length; ++i) {
-			Player_img[i] = new ImageIcon("src/com/chan/academy_game/Sample_Game_Shooting_Image/f15k_" + i + ".png").getImage();
+			Player_img[i] = new ImageIcon("src/com/chan/academy_game/Image/f15k_" + i + ".png").getImage();
 		}
 		// 플레이어 애니메이션 표현을 위해 파일이름을
 		// 넘버마다 나눠 배열로 담는다.
 
-		BackGround_img = new ImageIcon("src/com/chan/academy_game/Sample_Game_Shooting_Image/background.png").getImage();
+		BackGround_img = new ImageIcon("src/com/chan/academy_game/Image/background.png").getImage();
 		// 전체 배경화면 이미지를 받습니다.
 
 		Cloud_img = new Image[3];
 		for (int i = 0; i < Cloud_img.length; ++i) {
-			Cloud_img[i] = new ImageIcon("src/com/chan/academy_game/Sample_Game_Shooting_Image/cloud_" + i + ".png").getImage();
+			Cloud_img[i] = new ImageIcon("src/com/chan/academy_game/Image/cloud_" + i + ".png").getImage();
 		}
 		// 구름을 3개 동시에 그리는데 편의상 배열로 3개를 동시에 받는다.
 
 		Explo_img = new Image[3];
 		for (int i = 0; i < Explo_img.length; ++i) {
-			Explo_img[i] = new ImageIcon("src/com/chan/academy_game/Sample_Game_Shooting_Image/explo_" + i + ".png").getImage();
+			Explo_img[i] = new ImageIcon("src/com/chan/academy_game/Image/explo_" + i + ".png").getImage();
 		}
 		// 폭발 애니메이션 표현을 위해
 		// 파일이름을 넘버마다 나눠 배열로 담는다.

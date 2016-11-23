@@ -23,8 +23,9 @@ public class Study_StudentManager {
 		System.out.println(manager.students.get(0).getStudentNum());
 		System.out.println(manager.students.get(0).getMajor());
 		
-//		manager.students.get(0).
+		manager.students.get(0).updateInfo(1, "È«±æ¶Ë");
 		
+		System.out.println(manager.students.get(0).getName());
 		
 	}
 	
