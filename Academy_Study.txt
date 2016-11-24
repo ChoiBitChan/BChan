@@ -1230,10 +1230,56 @@ public / private
   ER-Diagram
   Class-Diagram
 
---------------------------------------------------------------------------------
-11.23
 
-Interface
+Override : 상속이나 구현할 때 부모클래스나 인터페이스에서 정의된 메소드를 사용하거나
+           내용을 수정하여 사용
+
+Overroad : 메소드명이 같더라도 인자가 다르면 다른 메소드로 취급한다
+
+--------------------------------------------------------------------------------
+11.24
+
+Collection
+
+  List
+    ArrayList --- 순서가 중요, 중복데이터 허용
+    LinkedList
+    Vector
+
+
+  Set
+    HashSet --- 순서는 중요X, 중복데이터 불허
+    LinkedHashSet
+    TreeSet
+
+  Queue(큐, 대기열)
+
+
+
+Map
+
+  HashMap
+    Key / value 로 이루어져있다
+
+
+
+Multi Thread
+
+  - Method를 Thread로 만든다
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

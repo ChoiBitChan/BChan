@@ -2,7 +2,7 @@ package com.chan.academy_study;
 
 import java.util.Scanner;
 
-public class Thread {
+public class Thread_Test {
 	
 	public static void main(String[] args) throws InterruptedException {
 		

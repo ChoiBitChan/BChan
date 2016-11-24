@@ -8,7 +8,7 @@ public class Study_Student {
 	private String major;
 	
 	
-	public Study_Student(String name, int age, int studentNum, String major){
+	public Study_Student(String name, int age, int studentNum, String major){ // 생성자
 		
 		this.name = name;
 		this.age = age;
@@ -17,7 +17,7 @@ public class Study_Student {
 		
 	}
 	
-	public void updateInfo (int i, String info){
+	public void updateInfo (int i, String info){ // 수정하기
 		
 		switch (i){
 			
@@ -40,7 +40,7 @@ public class Study_Student {
 	
 
 
-	public String getName() {
+	public String getName() { // getter setter
 		return name;
 	}
 
