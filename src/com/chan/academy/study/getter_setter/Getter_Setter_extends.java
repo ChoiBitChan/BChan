@@ -1,0 +1,24 @@
+package com.chan.academy.study.getter_setter;
+
+public class Getter_Setter_extends extends Getter_Setter_sub {
+//	Ctrl + Space 를 누르면 Test_Getter_Setter_sub 에 있는 메소드, 클래스가 나온다
+	
+	
+	public void agePrint2(){
+		System.out.println(age1);
+		System.out.println(age2);
+		System.out.println(age3);
+//		System.out.println(age4); --- 불가능
+		
+		
+	}
+	
+	
+	
+//	Override
+	public void agePrint(){
+		super.agePrint();
+	}
+	
+	
+}
