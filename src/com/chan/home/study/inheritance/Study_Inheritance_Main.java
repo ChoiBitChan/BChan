@@ -1,10 +1,10 @@
 package com.chan.home.study.inheritance;
 
-public class Study_inheritance_Main {
+public class Study_Inheritance_Main {
 
 	public static void main(String[] args) {
 		
-		Study_inheritance_Child Child = new Study_inheritance_Child();
+		Study_Inheritance_Child Child = new Study_Inheritance_Child();
 		System.out.println("아버지 이름 : ");
 		Child.getPapaName();
 
