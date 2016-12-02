@@ -10,7 +10,14 @@ public class Study_Override_PH1 extends Study_Override_PHlist {
 	public void PHlist() {
 		// TODO Auto-generated method stub
 		super.PHlist();
-		System.out.println("010-1234-5678");
+		System.out.println("010-6244-7748");
+	}
+	
+	@Override
+	public void PHname() {
+		// TODO Auto-generated method stub
+		super.PHname();
+		System.out.println("ÃÖºûÂù");
 	}
 
 }

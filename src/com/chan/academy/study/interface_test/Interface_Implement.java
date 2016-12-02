@@ -1,4 +1,4 @@
-package com.chan.academy.study.interF;
+package com.chan.academy.study.interface_test;
 
 public class Interface_Implement implements Interface_Main {
 

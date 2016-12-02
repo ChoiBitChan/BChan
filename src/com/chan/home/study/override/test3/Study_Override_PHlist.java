@@ -7,7 +7,11 @@ public class Study_Override_PHlist {
 	}
 	
 	public void PHlist() {
-		System.out.println("핸드폰 번호는");
+		System.out.print("핸드폰 번호 : ");
+	}
+	
+	public void PHname() {
+		System.out.print("고객의 이름 : ");
 	}
 
 }

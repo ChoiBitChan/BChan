@@ -1,6 +1,6 @@
-package com.chan.home.study.abstrack;
+package com.chan.home.study.abstract_test.PHlist;
 
-public class Study_Abstrack_Main {
+public class Study_Abstract_Main {
 
 	public static void main(String[] args) {
 		

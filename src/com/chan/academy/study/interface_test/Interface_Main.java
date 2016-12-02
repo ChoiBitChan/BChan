@@ -1,4 +1,4 @@
-package com.chan.academy.study.interF;
+package com.chan.academy.study.interface_test;
 
 public interface Interface_Main {
 	int age = 26;

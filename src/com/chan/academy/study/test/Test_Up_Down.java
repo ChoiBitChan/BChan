@@ -13,8 +13,8 @@ public class Test_Up_Down {
 		int i = 0;
 			while(check){
 				try{
-					System.out.println("랜덤숫자를 결정하였습니다. \n맞추어보세요. \n(1 ~ 500)\n");
-					int random = (int)(Math.random() * 499) + 1;
+					System.out.println("랜덤숫자를 결정하였습니다. \n맞추어보세요. \n(1 ~ 50)\n");
+					int random = (int)(Math.random() * 49) + 1;
 					for(i = 0; i < 10; i ++){
 					
 						Scanner sc = new Scanner(System.in);
